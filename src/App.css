@@ -10,4 +10,5 @@ body{
 
 .App {
   background: linear-gradient(to bottom, #00545B, #06958E);
+  display: flex;
 }
