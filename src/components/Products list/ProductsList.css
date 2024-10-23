@@ -14,4 +14,30 @@
 .product-list ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-list li {
+    flex: 1 1 calc(50% - 10px); /* Два объекта в строке с отступом */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.product-item h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #555;
 }
