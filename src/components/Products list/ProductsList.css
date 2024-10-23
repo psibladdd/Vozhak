@@ -30,8 +30,8 @@
 }
 
 .product-list li:nth-last-child(1) {
-    flex: 1 1 100%; /* Если один объект в строке, он занимает всю ширину */
-    margin-right: 0; /* Убираем отступ справа для последнего элемента */
+    flex: 1 1 50%;
+    margin-right: 0;
 }
 
 .product-item {
