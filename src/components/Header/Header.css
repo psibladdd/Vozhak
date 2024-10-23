@@ -23,7 +23,7 @@
 .shop-name {
     font-size: 18px;
     font-weight: bold;
-    color: var(--tg-theme-text-color);
+    color: #dddddd;
 }
 
 .header-right {
@@ -32,5 +32,5 @@
 
 .text-right {
     font-size: 16px;
-    color: var(--tg-theme-text-color);
+    color: #dddddd;
 }
