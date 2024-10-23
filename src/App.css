@@ -11,4 +11,7 @@ body{
 .App {
   background: linear-gradient(to bottom, #00545B, #06958E);
   display: flex;
+
+  flex-direction: column;
+  min-height: 100vh; /* Чтобы фон занимал всю высоту окна */
 }
