@@ -9,6 +9,7 @@
 .product-list h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #dddddd;
 }
 
 .product-list ul {
@@ -20,13 +21,13 @@
 }
 
 .product-list li {
-    flex: 1 1 calc(50% - 20px); /* Два объекта в строке с отступом */
+    flex: 1 1 calc(50% - 40px); /* Два объекта в строке с отступом */
     margin-bottom: 20px;
     box-sizing: border-box;
 }
 
 .product-list li:nth-child(odd) {
-    margin-right: 20px; /* Добавляем отступ справа для нечетных элементов */
+    margin-right: 40px; /* Добавляем отступ справа для нечетных элементов */
 }
 
 .product-list li:nth-last-child(1) {
