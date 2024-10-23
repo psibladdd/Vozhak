@@ -16,17 +16,22 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; /* Центрирование элементов */
 }
 
 .product-list li {
-    flex: 1 1 calc(50% - 10px); /* Два объекта в строке с отступом */
+    flex: 1 1 calc(50% - 20px); /* Два объекта в строке с отступом */
     margin-bottom: 20px;
     box-sizing: border-box;
 }
 
 .product-list li:nth-child(odd) {
     margin-right: 20px; /* Добавляем отступ справа для нечетных элементов */
+}
+
+.product-list li:nth-last-child(1) {
+    flex: 1 1 100%; /* Если один объект в строке, он занимает всю ширину */
+    margin-right: 0; /* Убираем отступ справа для последнего элемента */
 }
 
 .product-item {
