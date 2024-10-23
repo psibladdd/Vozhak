@@ -23,6 +23,7 @@
 .shop-name {
     font-size: 18px;
     font-weight: bold;
+    color: var(--tg-theme-text-color);
 }
 
 .header-right {
