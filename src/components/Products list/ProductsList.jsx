@@ -3,12 +3,7 @@ import React from 'react';
 import Product from '../Product/Product';
 import './ProductsList.css';
 
-const products = [
-    {id: 1, name: 'Product 1', price: 100, description: "temp", image: '1.jpg'},
-    {id: 2, name: 'Product 2', price: 200, description: "temp", image: '2.jpg'},
-    {id: 3, name: 'Product 3', price: 300, description: "temp", image: '3.jpg'},
-    // Добавьте больше продуктов по необходимости
-];
+const products = require("../../products.json")
 
 const ProductList = () => {
     return (

@@ -30,10 +30,6 @@
     margin-right: 40px; /* Добавляем отступ справа для нечетных элементов */
 }
 
-.product-list li:nth-last-child(1) {
-    flex: 1 1 50%;
-    margin-right: 0;
-}
 
 .product-item {
     border: 1px solid #ddd;
