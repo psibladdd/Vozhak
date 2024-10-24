@@ -6,10 +6,10 @@ const Product = ({name, price}) => {
     return (
         <div className="product-item">
             <a className="text" href="/">
-                {name}
+                <h2>{name}</h2>
             </a>
             <a className="text-desc" href="/">
-                Price: ${price}
+                <p>Price: ${price}</p>
             </a>
         </div>
     );
