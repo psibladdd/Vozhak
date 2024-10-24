@@ -1,17 +1,20 @@
 // src/Product.js
 import React from 'react';
-import {Link} from 'react-router-dom';
 import './Product.css';
 
-const Product = ({id, name, price}) => {
+const Product = ({id, name, price, image, desc}) => {
     return (
         <div className="product-item">
-            <Link className="text" to={`/product/${id}`}>
+            <img src={`/photos/${image}`} alt={name}/>
+            <a className="text" href={`/product/${id}`}>
                 <h2>{name}</h2>
-            </Link>
-            <Link className="text-desc" to={`/product/${id}`}>
+            </a>
+            <a className="text-desc" href={`/product/${id}`}>
                 <p>Price: ${price}</p>
-            </Link>
+            </a>
+            <div>
+                {desc}
+            </div>
         </div>
     );
 };
