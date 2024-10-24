@@ -4,9 +4,11 @@ import './Product.css';
 
 const Product = ({name, price}) => {
     return (
-        <div className="product-item">
-            <h2>{name}</h2>
-            <p>Price: ${price}</p>
+        <div className={cards}>
+            <a className="product-item" href="/">
+                <h2 className={card__link}>{name}</h2>
+                <p>Price: ${price}</p>
+            </a>
         </div>
     );
 };
