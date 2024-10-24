@@ -1,16 +1,17 @@
 // src/Product.js
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Product.css';
 
-const Product = ({name, price}) => {
+const Product = ({id, name, price}) => {
     return (
         <div className="product-item">
-            <a className="text" href="/">
+            <Link className="text" to={`/product/${id}`}>
                 <h2>{name}</h2>
-            </a>
-            <a className="text-desc" href="/">
+            </Link>
+            <Link className="text-desc" to={`/product/${id}`}>
                 <p>Price: ${price}</p>
-            </a>
+            </Link>
         </div>
     );
 };
