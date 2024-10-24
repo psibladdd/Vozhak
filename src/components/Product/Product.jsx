@@ -4,12 +4,13 @@ import './Product.css';
 
 const Product = ({name, price}) => {
     return (
-        <div className="product-item">
-            <a>
+        <a>
+            <div className="product-item">
                 <h2>{name}</h2>
                 <p>Price: ${price}</p>
-            </a>
-        </div>
+            </div>
+        </a>
+
     );
 };
 
