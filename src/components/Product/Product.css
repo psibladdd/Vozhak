@@ -11,6 +11,9 @@
 .product-item h2 {
     font-size: 18px;
     margin: 0;
+}
+
+.product-item h2:after {
     content: '';
     inset: 0;
 }
