@@ -1,5 +1,6 @@
 // src/ProductDetail.js
 import React from 'react';
+import './ProductDetail.css';
 import {useParams} from 'react-router-dom';
 
 const products = [
@@ -19,7 +20,7 @@ const ProductDetail = () => {
 
     return (
         <div>
-            <h2>{product.name}</h2>
+            <h2 className=Name>{product.name}</h2>
             <p>Price: ${product.price}</p>
             <p>{product.description}</p>
         </div>
