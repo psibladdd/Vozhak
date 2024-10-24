@@ -4,7 +4,7 @@ import './Product.css';
 
 const Product = ({name, price}) => {
     return (
-        <a>
+        <a href="/">
             <div className="product-item">
                 <h2>{name}</h2>
                 <p>Price: ${price}</p>
