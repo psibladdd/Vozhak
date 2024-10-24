@@ -3,7 +3,7 @@ import React from 'react';
 import Product from '../Product/Product';
 import './ProductsList.css';
 
-const products = require("../../products.json")
+const products = require("./products.json")
 
 const ProductList = () => {
     return (
